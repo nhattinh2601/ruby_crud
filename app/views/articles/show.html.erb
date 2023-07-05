@@ -1,0 +1,12 @@
+
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h1><%= @article.title %></h1>
+
+<p><%= @article.body %></p>
+<%= link_to "Article", articles_path, class: "btn btn-info" %>
+<%= link_to "Edit Article", edit_article_path(@article), class: "btn btn-success" %>
+</div>
+</div>
+</div>
